@@ -1,0 +1,21 @@
+{
+    "name": "websocket-server",
+    "version": "1.0.0",
+    "description": "A WebSocket server for managing rooms and players.",
+    "main": "server/websocket.js",
+    "scripts": {
+      "start": "node server/websocket.js",
+      "dev": "nodemon server/websocket.js",
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "dependencies": {
+      "uuid": "^9.0.0",
+      "ws": "^8.13.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.0"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
